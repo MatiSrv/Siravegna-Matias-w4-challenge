@@ -1,0 +1,72 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs
+*.log
+*.out
+*.err
+
+# Archivos de caché y otros temporales
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.tmp
+*.pid
+*.seed
+*.cover
+
+# Configuración de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos generados automáticamente
+*.env
+.env.*
+*.json  # Por si tienes configuraciones locales
+*.yaml  # Evitar configuraciones locales en YAML
+*.lock
+
+# Dependencias descargadas
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Docker (si lo usas)
+docker-compose.override.yml
+.dockerignore
+
+# Configuración de linters y herramientas (opcional)
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+.coverage
+htmlcov/
+
+# Archivos sensibles (API keys, secretos)
+secrets.json
+credentials.json
+*.pem  # Archivos de claves privadas
+*.key
+
+# Notebooks y otros datos grandes (opcional)
+.ipynb_checkpoints/
+*.ipynb
+*.data
+*.csv
+*.parquet
+*.zip
